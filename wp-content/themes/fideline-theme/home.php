@@ -18,7 +18,7 @@ get_header();
 <a href="contact">Allez sur la page contact</a>
 </div>
 
-
+<?php echo do_shortcode("[welcome-form]"); ?>
 
 <?php
 get_footer();
