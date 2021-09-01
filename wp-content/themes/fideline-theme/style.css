@@ -849,7 +849,7 @@ textarea {
   position: absolute;
   top: 10%;
   width: 80%;
-  height: 80%;
+  padding: 80% auto;
   margin: auto 10%;
   border: 2px solid white;
   text-align: center;
