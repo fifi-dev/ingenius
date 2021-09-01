@@ -1,0 +1,180 @@
+.formulaire_welcome{
+    padding: 0px 15px;
+    text-align: left;
+}
+label {
+    display: none;
+}
+.full label {
+    display: initial;
+}
+section.formulaire_welcome{
+    font-family: arial;
+    float: left;
+    position: relative;
+    width: 100%;
+    height: auto;
+    color: #373737;
+}
+section.formulaire_welcome h3 {
+    color: #002D72;
+    text-transform: uppercase;
+    text-align: center;
+    float: left;
+    display: block;
+    position: relative;
+    width:100%;
+}
+
+section.formulaire_welcome h2{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+    font-size: 17px;
+    color: #002D72;
+    line-height: 20px;
+    text-align:center;
+}
+section.formulaire_welcome p{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+}
+section.formulaire_welcome p strong{
+    font-weight: bold;
+    color: #002D72;
+}
+
+
+section.formulaire_welcome .cta{
+    float: left;
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 10px 10% 10px 10%;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #002D72;
+    color: #fff;
+    line-height: 20px;
+    padding: 10px;
+    border: solid 2px #002D72;
+    text-align: center;
+    text-decoration: none;
+}
+section.formulaire_welcome .cta:hover {
+    background-color: #fff;
+    color: #002D72;
+}
+section.formulaire_welcome p a{
+    color: #002D72;
+}
+
+
+p.loi {
+    margin: 20px 10px;
+    text-align: center;
+    font-size: 12px;    
+    line-height: 15px;
+    float: left;
+    display: block;
+    position: relative;
+    width:100%;
+}
+p.loi a {
+    color: #002D72;
+}
+section.formulaire_welcome .close {
+    position: absolute;
+    top: -17px;
+    right: 4px;
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    visibility: visible;
+}
+section.formulaire_welcome .close:hover {color: #05c1cc;}
+
+section.formulaire_welcome{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+section.formulaire_welcome .block{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+}
+section.formulaire_welcome .block.full{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+section.formulaire_welcome .block.full label{
+    font-size: 12px;
+}
+section.formulaire_welcome .block label{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 0 2px 0;
+    text-align:left;
+    line-height: 15px;
+    font-size: 14px;
+}
+section.formulaire_welcome .block input{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 30px;
+    padding: 2px;
+    box-sizing: border-box;
+    width: 100%;
+    border:none;
+    font-size: 13px;
+}
+section.formulaire_welcome .block input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+    margin: 0 3px 0 0;
+}
+section.formulaire_welcome .block input[type=submit]{
+    width: 80%;
+    margin: 0 10%;
+    background-color: #002D72;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 40px;
+    font-size: 16px;
+    color: #FFF;
+}
+
+section.formulaire_welcome .block select{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 30px;
+    padding: 2px;
+    box-sizing: border-box;
+    width: 100%;
+    border:none;
+    font-size: 13px;
+}
+
+section.formulaire_welcome .block input[type="submit"] {
+    text-transform: uppercase;
+    border: none !important;
+    margin-top: 15px;
+}

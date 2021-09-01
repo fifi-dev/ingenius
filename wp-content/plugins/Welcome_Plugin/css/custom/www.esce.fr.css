@@ -1,0 +1,50 @@
+#form section.formulaire_welcome .block input, #form section.formulaire_welcome .block select {
+    border-bottom: 1px solid #072357;
+}
+#form input[type=email], #form input[type=number], #form input[type=password], #form input[type=reset], input[type=search], #form input[type=tel], #form input[type=text], #form input[type=url], #form select, #form textarea {
+background: #fff;
+}
+#form label {
+    display: none;
+    color: #072357;
+}
+#champ_country, .country{
+    display: none;
+}
+.campus, .desiredProgram, .educationLevel, .admissionLevel {
+    display: block !important;
+}
+section.formulaire_welcome .block input {
+    height: 34px;
+}
+#form section.formulaire_welcome .block input, #form section.formulaire_welcome .block select {
+    color: #072357;
+}
+#form section.formulaire_welcome .block input::placeholder {
+    color: #072357;
+}
+#form section.formulaire_welcome .block input[type=submit] {
+    background: #FF511D;
+    border-radius: 0px;
+    height: 50px;
+    width: 60%;
+    color: #fff !important;
+    margin: 0% 20%;
+}
+#form section.formulaire_welcome .block input[type=submit]:hover {
+background: #FF200E;
+}
+
+#form section.formulaire_welcome h3, section.formulaire_welcome h2, section.formulaire_welcome p strong, section.formulaire_welcome .cta:hover, section.formulaire_welcome p a {
+    color: #072357;
+}
+#form section.formulaire_welcome .cta {
+    background-color: #FF511D;
+    border: solid 2px #FF511D;
+    border-radius: 0px;
+}
+
+#form section.formulaire_welcome h3, section.formulaire_welcome h2, section.formulaire_welcome p strong, section.formulaire_welcome .cta:hover, section.formulaire_welcome p a {
+    color: #072357;
+
+}

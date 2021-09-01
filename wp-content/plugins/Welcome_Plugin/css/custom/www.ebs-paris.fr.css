@@ -1,0 +1,54 @@
+.elementor-sticky--active {
+    top: -40px !important;
+}
+#form .formulaire_welcome {
+    background: #fff;
+}
+#form section.formulaire_welcome .block label{
+    display: block;
+    color: #002d72;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 10px;
+}
+#champ_country, .country {
+    display: none !important;
+}
+#form section.formulaire_welcome .block input  {
+    height: 25px;
+}
+#form section.formulaire_welcome .block input  {
+    background: #fff;
+    border-bottom: solid 2px #002d72 !important;
+}
+#form section.formulaire_welcome .block.full label {
+    text-transform: none;
+    font-weight: 300;
+}
+#form section.formulaire_welcome .block input[type="submit"] {
+    background: #fbdd2b !important;
+    font-weight: bold;
+    border-radius: 0px !important;;
+    width: 200px !important;
+    margin: 0 auto !important;
+    color: #fff;
+    border: 0px !important;
+    height: 40px;
+}
+#form section.formulaire_welcome .block input[type="submit"]:hover {
+    background: #6041CD !important;
+
+}
+#form section.formulaire_welcome .block input, #form select {
+    color: #002d72;
+}
+
+#form section.formulaire_welcome h3, #form section.formulaire_welcome h2, #form section.formulaire_welcome p strong, #form section.formulaire_welcome .cta:hover, #form section.formulaire_welcome p a{
+    color: #6142ce !important;
+}
+#form section.formulaire_welcome .cta{
+ background-color: #6142ce !important;
+ border: 2px solid #6142ce !important;
+ 
+}
