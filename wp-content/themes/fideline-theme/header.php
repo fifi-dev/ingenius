@@ -23,37 +23,16 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'fideline-theme' ); ?></a>
-
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$fideline_theme_description = get_bloginfo( 'description', 'display' );
-			if ( $fideline_theme_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $fideline_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
+	<a href="#" class="logo"><img src="./wp-content/themes/fideline-theme/sass/img/logo.png" height="100%" width="100%" alt="logo IUM"></a>
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'fideline-theme' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
+	<nav id="site-navigation">
+			<ul>
+				<li><a href="#events">Events</a></li>
+				<li><a href="#download" class="link2">Download</a></li>
+				<li><a href="#apply" class="link3">Apply</a></li>
+				<li class="lang"><a href="#">FR</a></li>
+				<li class="lang active"><a href="#">EN</a></li>
+			</ul>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->

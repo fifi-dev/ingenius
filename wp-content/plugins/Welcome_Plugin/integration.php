@@ -225,6 +225,8 @@ function formulaire_demande_entrante($params){
 
 }
 
+add_shortcode('form_welcome',  'formulaire_demande_entrante');
+
 function getAllAdmissionValues($api_call1,$api_call2){
     $api_call1 = "https://".$api_call1."/inseecu/fr/api/form/demande-documentation";
     $api_call2 = "https://".$api_call2."/inseecu/fr/api/form/demande-documentation";
